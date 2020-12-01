@@ -2,8 +2,10 @@
 
 input_numbers=read.table("day1/input_numbers.txt", quote="\"", comment.char="")
 
-get_n_sum_2020 <- function(input, pairs){
-  all_combn <- data.frame(t(combn(input,pairs)))
+# Function that finds a given number of elements m from a numeric vector that sum to the number 2020.
+# then returns the elements as a data frame as well as their product as a list.
+get_n_sum_2020 <- function(input, m){
+  all_combn <- data.frame(t(combn(input,m)))
   combn_sum_2020 <- all_combn[which(rowSums(all_combn)==2020),]
   prod_sum_2020 <- apply(combn_sum_2020, 1, prod)
   return(list(combn_sum_2020, prod_sum_2020))
