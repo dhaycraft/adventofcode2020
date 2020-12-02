@@ -53,7 +53,7 @@ total_fuel <- function(x){
   sum(fuel)
 }
 
-# Total fuel costs for all rockets
+# Total fuel required for all rockets
 sum(apply(rocket_mass, 1, total_fuel))
 
 
