@@ -54,7 +54,7 @@ tree_slope <- readLines("2020/day3/tree_slope.txt")
 tree_slope <- do.call(rbind, strsplit(tree_slope, ""))
 
 
-sled_down_hill <- function(steps_down, steps_right){
+sled_down_hill <- function(steps_right, steps_down){
   
 hill_size = ceiling(steps_right*nrow(tree_slope)/ncol(tree_slope))
 
@@ -76,7 +76,7 @@ return(sum(tree_slope_big=="X"))
 }
 
 
-sled_down_hill(1, 3)
+sled_down_hill(3,1)
 
 # --- Part Two ---
 #   Time to check the rest of the slopes - you need to minimize the probability of a sudden arboreal stop, after all.
@@ -93,4 +93,5 @@ sled_down_hill(1, 3)
 # What do you get if you multiply together the number of trees encountered on each of the listed slopes?
 
 
-sled_down_hill(1,1)*sled_down_hill(1,3)*sled_down_hill(1,5)*sled_down_hill(1,7)*sled_down_hill(2,1)
+sled_down_hill(1,1)*sled_down_hill(3,1)*sled_down_hill(5,1)*sled_down_hill(7,1)*sled_down_hill(1,2)
+
