@@ -46,7 +46,7 @@
 
 
 library(dplyr)
-xmas_stream <- read.table("C:/Users/haycr/Desktop/Repositories/adventofcode/2020/day9/xmas_stream.txt", quote="\"", comment.char="")
+xmas_stream <- read.table("2020/day9/xmas_stream.txt", quote="\"", comment.char="")
 xmas_stream <- xmas_stream$V1
 
 for(i in 26:nrow(xmas_stream)){

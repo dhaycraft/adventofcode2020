@@ -80,7 +80,7 @@
 # Find a chain that uses all of your adapters to connect the charging outlet to your device's built-in adapter and count the joltage differences between the charging outlet, the adapters, and your device. What is the number of 1-jolt differences multiplied by the number of 3-jolt differences?
 
 
-adapters <- read.table("C:/Users/haycr/Desktop/Repositories/adventofcode/2020/day10/adapters.txt", quote="\"", comment.char="")
+adapters <- read.table("2020/day10/adapters.txt", quote="\"", comment.char="")
 
 adapters <- adapters %>% arrange(V1)
 adapters <- data.frame(adapt = c(0,adapters$V1, (max(adapters$V1)+3)))

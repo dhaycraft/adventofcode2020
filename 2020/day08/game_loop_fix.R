@@ -40,7 +40,7 @@
 # 
 # Run your copy of the boot code. Immediately before any instruction is executed a second time, what value is in the accumulator?
 
-game_loop <- read.table("C:/Users/haycr/Desktop/Repositories/adventofcode/2020/day8/game_loop.txt", quote="\"", comment.char="")
+game_loop <- read.table("2020/day8/game_loop.txt", quote="\"", comment.char="")
 
 game_loop$instruct_order = NA
 
