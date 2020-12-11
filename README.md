@@ -13,3 +13,6 @@ Want to complete all the puzzles!
 | 05 | [Binary Boarding](https://adventofcode.com/2020/day/5) | ✓ |
 | 06 | [Custom Customs](https://adventofcode.com/2020/day/6) | ✓ |
 | 07 | [Handy Haversacks](https://adventofcode.com/2020/day/7) | ✓ |
+| 08 | [Handheld HaltingHandheld Halting](https://adventofcode.com/2020/day/8) | ✓ |
+| 09 | [Encoding Error](https://adventofcode.com/2020/day/9) | ✓ |
+| 10 | [Adapter Array](https://adventofcode.com/2020/day/10) | ✓ |
