@@ -33,7 +33,7 @@
 # Figure out where the navigation instructions lead. What is the Manhattan distance between that location and the ship's starting position?
 
 
-ship_direction <- read.table("C:/Users/haycr/Desktop/Repositories/adventofcode/2020/day12/ship_direction.txt", quote="\"", comment.char="")
+ship_direction <- read.table("2020/day12/ship_direction.txt", quote="\"", comment.char="")
 
 dist_ns = 0
 dist_ew = 0

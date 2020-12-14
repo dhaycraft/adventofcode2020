@@ -44,7 +44,7 @@
 # What is the ID of the earliest bus you can take to the airport multiplied by the number of minutes you'll need to wait for that bus?
 
 library(tidyverse)
-bus_times <- read.csv2("C:/Users/haycr/Desktop/Repositories/adventofcode/2020/day13/bus_times.txt", header=FALSE, sep="")
+bus_times <- read.csv2("2020/day13/bus_times.txt", header=FALSE, sep="")
 
 time_airport <- as.numeric(bus_times$V1[1])
 
